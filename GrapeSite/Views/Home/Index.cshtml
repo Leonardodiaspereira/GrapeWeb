@@ -1,0 +1,502 @@
+﻿@{
+    ViewBag.Title = "Grape";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="~/Content/images/favicon.png" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="~/Content/Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+
+    <div class="background">
+        <nav class="navbar">
+            <div class="logo-container">
+                <h2 id="titulo01" class="logo">
+                    <img src="~/Content/images/logo.png" alt="Grape" class="logo-img">
+                </h2><!--Logo-->
+            </div>
+            <ul class="cabeçalho-link">
+                <li><a href="#titulo01">HOME</a></li>
+                <li><a href="#titulo02">QUEM SOMOS</a></li>
+                <li><a href="#titulo03">CONHEÇA NOSSAS UVAS</a></li>
+                <li><a href="#titulo04">COMO COMPRAR</a></li>
+                <li><a href="#titulo05">APP</a></li>
+                <li><a href="#login-section">LOGIN</a></li>
+                <li><a href="#criar-conta-section">CRIAR CONTA</a></li>
+                <li><a href="#titulo06">CONTATO</a></li>
+            </ul><!--cabeçalho-link-->
+        </nav>
+    </div>
+
+    <div class="Main background-image">
+        <img src="~/Content/images/principal.png" alt="Imagem de fundo" class="background-img">
+        <h1 class="main-title">As uvas da Grape são produzidas a partir de uma combinação que une maestria de sabores, crocância e aromas únicos.</h1>
+    </div><!--Main-->
+
+    <section class="background-color-Sobre">
+        <div class="main-sobre">
+            <img src="~/Content/images/sobre.png" class="profile-img" alt="Sobre">
+            <div class="Text-sobre">
+                <h2 id="titulo02">QUEM SOMOS</h2>
+                    <p>A Grape tem um compromisso com a
+                    sustentabilidade, praticamos processos
+                    ecológicos em todas as etapas de nossa
+                    operação. Nossa fazenda urbana é focada
+                    nas vendas de uvas frescas, permitindo
+                    que os consumidores adquiram produtos
+                    frescos e de alta qualidade diretamente do
+                    produtor. Além disso, adotamos uma
+                    abordagem inovadora para garantir que
+                    nenhuma uva seja desperdiçada,
+                    transformando as uvas do tipo Scarlota
+                    não comercializadas em uvas passas.
+                </p>
+            </div><!--Text-sobre-->
+        </div><!--main-sobre-->
+    </section><!--background-color-Sobre-->
+
+    <section class="informacoes">
+        <div class="informacao-item">
+            <h3>Missão</h3>
+            <p>Saúde e o Bem-estar.</p>
+        </div>
+        <div class="informacao-item">
+            <h3>Visão</h3>
+            <p>Tornar-se a líder global no fornecimento de uvas premium</p>
+        </div>
+        <div class="informacao-item">
+            <h3>Valores</h3>
+            <p>Qualidade, Sustentabilidade, Inovação, Transparência, Excelência no Atendimento.</p>
+        </div>
+    </section><!--informacoes-->
+
+    <section class="background-color-Sobre">
+        <div class="main-sobre">
+            <div class="Text-bene">
+                <h2 id="titulo03">Conheça Nossas Uvas</h2>
+                <div class="benefit-grid">
+                    <div class="benefit-item">
+                        <img src="~/Content/images/crisp.jpg" alt="Autumn Crisp">
+                        <p><b>Autumn Crisp</b></p>
+                        <p>Crocante, suculenta, saborosa, doce</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="~/Content/images/melodia.jpg" alt="Melodia">
+                        <p><b>Melodia</b></p>
+                        <p>Levemente adocicada, suave, aromática</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="~/Content/images/uvapassa.jpg" alt="Uva Passa">
+                        <p><b>Uva Passa</b></p>
+                        <p>Doce, macia, concentrada, nutritiva</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="~/Content/images/arra34.jpg" alt="Arra 34">
+                        <p><b>Arra 34</b></p>
+                        <p>Firme, crocante, equilibrada, sem sementes</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="~/Content/images/scarlotta.jpg" alt="Scarlotta">
+                        <p><b>Scarlotta</b></p>
+                        <p>Vermelha, doce, encorpada, vibrante</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="~/Content/images/thompson.jpg" alt="Uva Thompson">
+                        <p><b>Uva Thompson</b></p>
+                        <p>Verde, sem sementes, crocante, refrescante</p>
+                    </div>
+                </div>
+            </div><!-- Text-sobre -->
+        </div><!-- main-sobre -->
+    </section><!-- background-color-Sobre -->
+
+    <section class="background-color-Sobre">
+        <div class="main-sobre">
+            <div class="Text-sobre">
+                <h2 id="titulo04">Como Comprar</h2>
+                <p>1. Baixe nosso App.</p>
+                <p>2. Faça login se já tiver uma conta. Caso contrário, crie sua conta agora mesmo no site ou no aplicativo Grape!</p>
+                <p>3. Selecione os produtos que deseja.</p>
+                <p>4. Selecione as formas de pagamentos disponíveis.</p>
+                <p>5. Finalize o pedido.</p>
+            </div><!--Text-sobre-->
+        </div><!--main-sobre-->
+    </section><!--background-color-Sobre-->
+
+    <section class="background-color-Sobre">
+        <div class="main-sobre">
+            <div class="Text-mundo">
+                <h2 id="titulo05">O jeito Grape de te acompanhar</h2>
+                <div class="content">
+                    <div class="icon">
+                        <img src="~/Content/images/app.png" alt="Imagem app">
+                    </div>
+                    <div class="text">
+                        <p> Baixe nosso app e realize seu pedido.</p>
+                        <p>Disponível para:</p>
+                        <ul>
+                            <li>✔ ANDROID</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--Text-sobre-->
+        </div><!--main-sobre-->
+    </section><!--background-color-Sobre-->
+    <!-- Seção de Login -->
+    <section id="login-section" class="background-color-Sobre py-5">
+        <div class="container">
+            <div class="card mx-auto" style="max-width: 900px;">
+                <div class="card-body">
+                    <h2 class="card-title text-center">Já possui uma conta? Faça seu login abaixo para validar suas informações:</h2>
+                    <div class="form-group">
+                        <input type="email" id="login-email" class="form-control mt-3" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="login-senha" class="form-control" placeholder="Digite sua senha">
+                    </div>
+                    <button id="loginBtn" class="btn btn-success btn-block mt-3">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seção de Criar Conta -->
+    <section id="criar-conta-section" class="background-color-Sobre py-5">
+        <div class="container">
+            <div class="card mx-auto" style="max-width: 900px;">
+                <div class="card-body">
+                    <h2 class="card-title text-center">Ainda não possui uma conta? Crie agora mesmo e utilize suas credenciais para acessar nosso aplicativo e desfrutar das melhores uvas que oferecemos!</h2>
+                    <div class="form-group">
+                        <input type="text" id="criar-nome" class="form-control" placeholder="Digite seu nome" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" title="Nome deve conter apenas letras" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="criar-email" class="form-control" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="criar-telefone" class="form-control" placeholder="Digite seu telefone" pattern="\d{10,15}" title="Telefone deve conter apenas números e ter entre 10 e 15 dígitos" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="criar-cpf" class="form-control" placeholder="Digite seu CPF" pattern="\d{11}" title="CPF deve conter 11 números" maxlength="11" required>
+
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="criar-senha" class="form-control" placeholder="Digite sua senha" minlength="8" title="A senha deve conter no mínimo 8 caracteres" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="criar-confirmar-senha" class="form-control" placeholder="Confirme sua senha">
+                    </div>
+                    <button id="criarContaBtn" class="btn btn-success btn-block mt-3">Criar Conta</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container my-5">
+        <div class="row">
+            <!-- Depoimento 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-circle fa-2x mb-3"></i>
+                        <p class="card-text">"Adorei a experiência de comprar uvas na Grape! A qualidade é impecável e o sabor das uvas é simplesmente delicioso. Chegou tudo muito fresco e no prazo. Com certeza comprarei novamente!"</p>
+                        <p class="reviewer">- Maria Silva</p>
+                        <div class="stars">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Depoimento 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-circle fa-2x mb-3"></i>
+                        <p class="card-text">"As uvas da Grape são realmente premium! Dá pra sentir a diferença na textura e no sabor. Minha única observação é que eu gostaria de mais opções de tamanhos de pacotes. No mais, tudo perfeito!"</p>
+                        <p class="reviewer">- Carlos Mendes</p>
+                        <div class="stars">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Depoimento 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-circle fa-2x mb-3"></i>
+                        <p class="card-text">"Que uvas maravilhosas! Desde o atendimento até a entrega, tudo foi excelente. O cuidado no transporte e o frescor das uvas mostram o compromisso da Grape com a qualidade. Indico para todos!"</p>
+                        <p class="reviewer">- Renata Costa</p>
+                        <div class="stars">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Depoimento 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-circle fa-2x mb-3"></i>
+                        <p class="card-text">"Comprei para experimentar e não me arrependo. As uvas são bem doces e suculentas. Só não dou cinco estrelas porque achei o preço um pouco alto. Mas valeu cada centavo!"</p>
+                        <p class="reviewer">- Fernanda Oliveira</p>
+                        <div class="stars">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Depoimento 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-circle fa-2x mb-3"></i>
+                        <p class="card-text">"Estou impressionado com a qualidade das uvas da Grape. Todas as frutas vieram sem imperfeições e com um sabor incrível. Ótimo atendimento e entrega rápida."</p>
+                        <p class="reviewer">- Paulo Azevedo</p>
+                        <div class="stars">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Depoimento 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-circle fa-2x mb-3"></i>
+                        <p class="card-text">"Uvas frescas, doces e entregues no prazo prometido. A embalagem também é muito bem feita, o que preserva a qualidade. Experiência de compra excelente! Comprarei mais vezes, com certeza."</p>
+                        <p class="reviewer">- Ana Paula Ferreira</p>
+                        <div class="stars">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Seção de Newsletter -->
+    <div class="form-wrapper">
+        <div class="container">
+            <div class="card mx-auto" style="max-width: 900px;">
+                <div class="card-body text-center">
+                    <h1 class="card-title">Assine nossa Newsletter e Receba Promoções e Novidades Diretamente no seu E-mail</h1>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control mt-3" placeholder="Digite seu e-mail">
+                    </div>
+                    <button id="assinarBtn" class="btn btn-success btn-block mt-3">Assinar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="background-color-Contato">
+        <div class="main-contato">
+            <div class="Text-contato">
+                <h2 id="titulo06">Contato</h2>
+                <div class="contact-info">
+                    <p>
+                        <strong>E-mail:</strong>
+                        <a href="mailto:grapefazendaurbana@gmail.com">grapefazendaurbana@gmail.com</a>
+                    </p>
+                    <p>
+                        <strong>Celular:</strong>
+                        <a href=""
+                           class="whatsapp-link"
+                           target="_blank">
+                            <i class="fab fa-whatsapp"></i> (11) 97558-0551
+                        </a>
+                    </p>
+
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div><!--Text-contato-->
+        </div><!--main-contato-->
+    </section><!--background-color-Contato-->
+
+    <footer class="footer-section">
+        <div class="footer-center">
+            <a>
+                <i class="fas fa-lock"></i> Site Seguro.
+            </a>
+        </div>
+        <div class="footer-left-right">
+            <div class="footer-left">
+                &copy; Copyright 2024 <span class="highlight">Grape</span>. Todos os direitos reservados.
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+    $(document).ready(function () {
+        // Newsletter
+       $('#assinarBtn').click(function () {
+            var email = $('#email').val().trim();
+            if (!email) {
+                toastr.error('Por favor, insira um e-mail válido.');
+                return;
+            }
+
+            $.ajax({
+                url: '@Url.Action("AssinarNewsletter", "Promocao")',
+                type: 'POST',
+                data: { email: email },
+                success: function (response) {
+                    if (response.sucesso) {
+                        toastr.success(response.mensagem);
+                        $('#email').val('');
+                    } else {
+                        toastr.error(response.mensagem);
+                    }
+                },
+                error: function () {
+                    toastr.error('Erro ao enviar o e-mail. Por favor, tente novamente.');
+                }
+            });
+        });
+
+        // Login
+        $('#loginBtn').click(function () {
+            var email = $('#login-email').val().trim();
+            var senha = $('#login-senha').val().trim();
+            if (!email || !senha) {
+                toastr.error('Por favor, preencha todos os campos.');
+                return;
+            }
+
+            $.ajax({
+                url: '@Url.Action("Login", "Cliente")',
+                type: 'POST',
+                data: { email: email, senha: senha },
+                success: function (response) {
+                    if (response.sucesso) {
+                        toastr.success(response.mensagem);
+                    } else {
+                        toastr.error(response.mensagem);
+                    }
+                },
+                error: function () {
+                    toastr.error('Erro ao tentar efetuar o login. Tente novamente.');
+                }
+            });
+        });
+
+        // Criar Conta
+        $('#criarContaBtn').click(function () {
+            var cliente = {
+                Nome: $('#criar-nome').val().trim(),
+                Email: $('#criar-email').val().trim(),
+                Telefone: $('#criar-telefone').val().trim(),
+                CPF: $('#criar-cpf').val().trim(),
+                Senha: $('#criar-senha').val().trim()
+            };
+            var confirmarSenha = $('#criar-confirmar-senha').val().trim();
+
+            // Validações dos campos
+            var nomeRegex = /^[A-Za-zÀ-ÖØ-öø-ÿ\s]+$/;
+            var telefoneRegex = /^\d{10,15}$/;
+            var cpfRegex = /^\d{11}$/;
+
+
+            if (!cliente.Email || cliente.Email.indexOf('@@') === -1) {
+                toastr.error('Por favor, insira um e-mail válido.');
+                return;
+            }
+
+            if (!cliente.Nome || !nomeRegex.test(cliente.Nome)) {
+                toastr.error('Por favor, insira um nome válido (somente letras).');
+                return;
+            }
+
+            if (!cliente.Telefone || !telefoneRegex.test(cliente.Telefone)) {
+                toastr.error('Por favor, insira um telefone válido (somente números, entre 10 e 15 dígitos).');
+                return;
+            }
+
+            if (!cliente.CPF || !cpfRegex.test(cliente.CPF)) {
+                toastr.error('Por favor, insira um CPF válido (11 dígitos).');
+                return;
+            }
+
+            if (!cliente.Senha || cliente.Senha.length < 8) {
+                toastr.error('A senha deve ter no mínimo 8 caracteres.');
+                return;
+            }
+
+            if (cliente.Senha !== confirmarSenha) {
+                toastr.error('As senhas não coincidem.');
+                return;
+            }
+
+            
+            $.ajax({
+                url: '@Url.Action("CriarConta", "Cliente")',
+                type: 'POST',
+                data: cliente,
+                success: function (response) {
+                    if (response.sucesso) {
+                        toastr.success(response.mensagem);
+                        $('#criar-nome, #criar-email, #criar-telefone, #criar-cpf, #criar-senha, #criar-confirmar-senha').val('');
+                    } else {
+                        toastr.error(response.mensagem);
+                    }
+                },
+                error: function () {
+                    toastr.error('Erro ao tentar criar a conta. Tente novamente.');
+                }
+            });
+        });
+    });
+    </script>
+</body>
+</html>
